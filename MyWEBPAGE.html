@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.9);
+            margin: 0;
+            color: #fff;
+            font-family: Times New Roman;
+        }
+        .home-page {
+            width: 50%;
+            margin: auto;
+            text-align: center;
+            margin-top: 10%;
+        }
+        .home-details {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            background-color: Blue;
+            padding: 15px 10px;
+            box-shadow: 0 1px 3px 1px rgba(256, 256, 256, .2);
+        }
+        .home-details p {
+            padding: 0 15px;
+        }
+        .home-details p:hover {
+            text-shadow: 1px 1px 10px #FFF;
+        }
+        .resume, .gallery, .cover-letter, .bibliography, .library {
+            display: none;
+            padding: 30px;
+            border-radius: 7px;
+            padding-top: 70px;
+            margin-bottom: 5%;
+        }
+        h2.header {
+            font-weight: 500;
+            display: inline;
+            box-shadow: 0 2px;
+            letter-spacing: 7px;
+            padding-bottom: 5px;
+        }
+        .resume h4 {
+            font-weight: 500;
+            letter-spacing: 3px;
+        }
+        .resume p {
+            font-weight: 100;
+            line-height: 1.4em;
+        }
+        .edu {
+            padding: 7px 0;
+        }
+        .edu h4 {
+            margin: 0;
+            padding: 0;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+        .edu p {
+            margin: 5px 0px;
+            font-weight: 100;
+        }
+        .resume ul li {
+            padding: 3px;
+            line-height: 1.4em;
+            font-weight: 100;
+        }
+        .images {
+            width: 65%;
+            margin: auto;
+            margin-top: 10px;
+        }
+        .images img {
+            width: 100%;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .cover-matter p {
+            margin: 10px;
+            font-weight: 100;
+            font-size: 16px;
+            letter-spacing: .5px;
+        }
+        .bibliography p, .library p {
+            font-size: 17px;
+            line-height: 1.4em;
+        }
+        @media screen and (max-width: 900px) {
+            .resume, .gallery, .cover-letter, .bibliography, .library {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="home-details">
+        <p class="res">RESUME</p>
+        <p class="gal">GALLERY</p>
+        <p class="cov">COVER LETTER</p>
+    </div>
+    <div class="home-page">
+        <hr/><br/>
+        <h3 style="font-weight: 500">ASHOK MARAM</h3>
+        <p style="font-weight: 500">TO KNOW MORE ABOUT ME CHOOSE THE FOLLOWING..</p><br/>
+        <hr/>
+    </div>
+    <div class="resume">
+        <h2 class="header">RESUME</h2>
+        <div style="text-align: center">
+            <h2 style="font-weight: 500; letter-spacing: 5px;">Ashok Maram</h2>
+        </div>
+        
+        <h4><b>Email</b></h4>
+        <p>ashok.maram1@gmail.com</p>
+
+        <h4><b>Mobile Number</b></h4>
+        <p>+13472168881</p>
+
+        <h4><b>Address</b></h4>
+        <p>Dallas, TX</p>
+
+        <h4><b>Quick Summary</b></h4>
+        <p>I'm a highly driven recent graduate with 5+ years of experience looking for the opportunity to use my knowledge and skillset in the analytics area. I excel in collecting, cleaning, and analyzing complex datasets, turning raw information into actionable recommendations. Proficient in data visualization, statistical analysis, and data mining, I'll be able to help your organization make greater profits through better analytics, which is what drew me here initially!</p>
+
+        <h4><b>Education</b></h4>
+        <div class="edu">
+            <h4>Masters | Data Science & Analytics | 3.96 GPA</h4>
+            <p>New England College</p>
+
+            <h4>Bachelors | Computer Science</h4>
+            <p>Lovely Professional University</p>
+        </div>
+
+        <h4><b>Technical Skills</b></h4>
+        <ul>
+            <li><b>BI Tools:</b> MS Visual Studio, SSIS, SSAS, PowerBI</li>
+            <li><b>Databases:</b> Azure SQL, MS SQL Server, Dataverse, Oracle Apex, MS Access, ACTS, HFIS</li>
+            <li><b>Reporting Tools:</b> Power BI, Tableau, AD-HOC</li>
+            <li><b>Languages:</b> SQL, T-SQL, PL/SQL, Python</li>
+            <li><b>Operating System:</b> Microsoft Windows 7/10, Microsoft Office, Excel</li>
+            <li><b>Cloud/Bigdata Tools:</b> Azure Data Factory, Databricks, D365</li>
+            <li><b>Other Tools:</b> SharePoint, Visual Studio, GitHub, Jira, Advanced Excel (Pivot Tables, Power Query), Power Automate, Power Apps (Canvas & Model Driven apps)</li>
+        </ul>
+
+        <h4><b>Work Experience</b></h4>
+
+        <h4>New York State Department of Health, NY</h4>
+        <h4>Data Analyst</h4>
+        <div class="work-experience">
+            <ul>
+                <li>Designed and implemented dynamic Power BI dashboards and SQL Server Reporting Services (SSRS), providing leadership with actionable insights into healthcare compliance and operational trends.</li>
+                <li>Designed and developed Canvas and Model-Driven Apps in Microsoft PowerApps to meet process automation requirements.</li>
+                <li>Conducted detailed analysis of healthcare complaints, identifying patterns and contributing to policy enforcement.</li>
+                <li>Streamlined reporting processes by leveraging SQL, AD-HOC, and Microsoft Office 365 tools, reducing manual effort and improving data accuracy.</li>
+                <li>Worked with cross-functional teams to develop data-driven solutions for optimizing workflows and ensuring regulatory compliance.</li>
+                <li>Trained end-users on new systems and tools, enhancing adoption and operational efficiency.</li>
+                <li>Maintained system integrity by proactively troubleshooting technical issues and coordinating with IT teams to resolve escalations promptly.</li>
+                <li>Demonstrated flexibility and reliability in working varied hours to meet the dynamic needs of the department.</li>
+            </ul>
+            <h4>Skillset</h4>
+            <p>Excel, Power BI, Power Query, Advanced Excel (Pivot Tables, Power Query), DAX, Power Apps, SharePoint, Power Automate, ACTS, HFIS, Dataverse, SQL, T-SQL, PL/SQL, Python</p>
+        </div>
+
+        <h4>Broadridge Financial Solutions, NY</h4>
+        <h4>Business Intelligence Intern</h4>
+        <div class="work-experience">
+            <ul>
+                <li>Collaborated with end users and the development team to build and maintain data capability across Microsoft cloud stack: Azure SQL, Azure Data Factory, Dynamics 365 CE and F&O, Dataverse, and Power Platform.</li>
+                <li>Implemented and maintained SQL objects (tables, views, stored procedures, etc.) for input of incoming data.</li>
+                <li>Conducted data cleansing and transformation using Power Query, ensuring data integrity and consistency across multiple datasets.</li>
+                <li>Defined data models for ETL & warehouse systems by collaborating with Business Analysts and Subject Matter Experts.</li>
+                <li>Automated routine reporting tasks by developing scheduled refreshes and alerts within Power BI, reducing manual effort and improving report accuracy.</li>
+                <li>Implemented row-level security in Power BI to restrict data access based on user roles, ensuring data confidentiality and compliance with security protocols.</li>
+            </ul>
+            <h4>Skillset</h4>
+            <p>Power BI, Data Analysis, Transformation, Power Query, DAX</p>
+        </div>
+
+        <h4>Venx IT Solutions, India</h4>
+        <h4>Data Engineer 1</h4>
+        <div class="work-experience">
+            <ul>
+                <li>Developed ETL processes to transmit data from legacy on-premises source systems to Azure SQL Databases and Dataverse on Azure.</li>
+                <li>Demonstrated Client Data Integration Service workflows using Azure Cloud Storage Message Queues and worked with Cloud Architects to streamline the process, including logging from Application Insights.</li>
+                <li>Designed and developed Cloud ETL processes and workflows using Azure Data Factory/SSIS & T-SQL stored procedures to load data into multiple staging area Azure SQL Databases.</li>
+                <li>Analyzed and diagrammed the existing data workflows and provided strategies for enhancements.</li>
+                <li>Supported the Testing Team with bug fixes and resolved issues/defects; performed performance tuning on ETL pipelines.</li>
+                <li>Participated in data integration workflow construction and configuration design.</li>
+                <li>Created and queried Delta Tables using existing CSV files and updated/created Clusters in Databricks with the help of Notebooks.</li>
+                <li>Used GIT & CI/CD processes via Azure DevOps for moving ETL/SQL code between environments and led data migration efforts.</li>
+            </ul>
+        </div>
+
+        <h4><b>University Projects</b></h4>
+        <p><b>Data Visualization Covid Dashboard (New England College)</b></p>
+        <ul>
+            <li>Developed an application that displayed the characterization of pandemic spread using 8 GB of patient data and inferred patterns to predict a patient’s death span using Classification Algorithms.</li>
+            <li>Created a dashboard in Tableau to visualize the Covid dataset and analyzed the data to create various visualizations for easier interpretation.</li>
+        </ul>
+        
+        <p><b>Database Management System (Lovely Professional University)</b></p>
+        <ul>
+            <li>Designed a project to organize diverse data and produced heap and index files using MySQL features such as batch insert, map insert, row joins (e.g., inner join), data version control, query processing, and sorting.</li>
+            <li>Implemented Stored procedures, different functions, and triggers on the datasets. The design was presented using ER and ORM diagrams.</li>
+        </ul>
+    </div>
+    <div class="gallery">
+        <h2 class="header">GALLERY</h2>
+        <div class="images">
+            <img src="./photos/photo1.jpeg" alt="Photo 1"/>
+            <img src="./photos/photo2.jpeg" alt="Photo 2"/>
+            <img src="./photos/photo3.jpeg" alt="Photo 3"/>
+            <img src="./photos/photo5.jpeg" alt="Photo 5"/>
+        </div>
+    </div>
+    <div class="cover-letter">
+        <h2 class="header">COVER LETTER</h2>
+        <h3 style="font-weight: 500; letter-spacing: 1px; margin: 30px 0"> Ashok Maram</h3>
+        <div class="cover-matter">
+            <p>From:</p>
+            <p>Dallas,TX.</p>
+            <p>To:</p>
+            <p>Hiring Manager,</p>
+            <p style="line-height: 1.6em">Ashok Maram
+
+
+I am writing to express my interest in the Data Analyst position . With a strong educational background in Data Science and Analytics, coupled with over 5 years of hands-on experience in business intelligence and data analysis, I am confident in my ability to contribute effectively to your team and provide actionable insights that drive strategic decision-making.
+
+During my time as a Data Analyst at the New York State Department of Health, I successfully designed and implemented dynamic Power BI dashboards and SQL Server Reporting Services (SSRS), providing leadership with actionable insights into healthcare compliance and operational trends. I have hands-on experience in working with complex datasets, conducting detailed analyses, and deriving meaningful recommendations to improve business processes. Additionally, my proficiency in tools like SQL, Python, and Power BI has helped me streamline reporting processes, automate data workflows, and significantly reduce manual efforts.
+
+I thrive in environments where collaboration and data-driven decision-making are at the forefront. At Broadridge Financial Solutions, I had the opportunity to collaborate with cross-functional teams to build and maintain data pipelines, automate reporting tasks, and implement robust data security protocols within Power BI. These experiences have sharpened my problem-solving abilities and deepened my understanding of business analytics.
+
+My educational background, which includes a Master’s in Data Science & Analytics (with a 3.96 GPA) and a Bachelor’s in Computer Science, provides a solid foundation for my technical and analytical skills. I am proficient in utilizing a wide array of BI tools such as Power BI, SQL, and Python, and have hands-on experience with Azure, Dataverse, and various reporting tools. I am confident that my ability to transform raw data into actionable insights, coupled with my attention to detail and passion for data analysis, will be an asset to your organization.
+
+I am enthusiastic about the opportunity to bring my expertise in data analysis to [Company Name], and I look forward to contributing to your team’s continued success. Thank you for considering my application. I would welcome the opportunity to discuss how my skills and experiences align with the needs of your company in more detail.
+
+Sincerely,
+Ashok Maram
+
+        </div>
+    </div>
+    <script>
+        const homePage = document.querySelector(".home-page");
+        const resume = document.querySelector(".resume");
+        const gallery = document.querySelector(".gallery");
+        const coverLetter = document.querySelector(".cover-letter");
+
+        document.querySelector(".res").addEventListener("click", function() {
+            homePage.style.display = "none";
+            gallery.style.display = "none";
+            coverLetter.style.display = "none";
+            resume.style.display = "block";
+        });
+        document.querySelector(".gal").addEventListener("click", function() {
+            homePage.style.display = "none";
+            coverLetter.style.display = "none";
+            resume.style.display = "none";
+            gallery.style.display = "block";
+        });
+        document.querySelector(".cov").addEventListener("click", function() {
+            homePage.style.display = "none";
+            gallery.style.display = "none";
+            resume.style.display = "none";
+            coverLetter.style.display = "block";
+        });
+    </script>
+</body>
+</html>
